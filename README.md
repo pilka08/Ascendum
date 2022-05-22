@@ -1,10 +1,5 @@
 # Ascendum UI Library
 
-## Table of contents
-* [Start](#general-info)
-* [Note](#Note)
-* [How To Use](#Tutorial)
-
 ## General info
 This project is an UI library used in roblox/roblox studio.
 	
@@ -25,7 +20,21 @@ local tab1 = Window:Tabs("tab1")
 
 local examplesection1 = tab1:newpage()
 
-local examplesection2 = 
-$ npm install
-$ npm start
+examplesection:Label("label name")
+
+examplesection:Line() 
+(it makes a line under label)
+
+examplesection:Button("button name", color3.fromRGB(255, 255, 255), function()
+print("works") 
+(u can choose the button color just search "rgb color picker" in google.)
+end)
+
+examplesection:Toggle("toggle name", false, function()
+    
+end):lock(false) (if its true players cant turn it on and off.)
+
+examplesection:Bind("Close Keybind", _G.ToggleKey11, function(Key)
+    _G.ToggleKey11 = Enum.KeyCode[Key]
+end) (ui toggle keybind)
 ```
