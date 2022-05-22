@@ -1,26 +1,31 @@
 # Ascendum UI Library
-## It's from Ascend Hub.
-### All credits goes to follow for leaking it.
 
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [Start](#general-info)
+* [Note](#Note)
+* [How To Use](#Tutorial)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is an UI library used in roblox/roblox studio.
 	
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+## Note
+Main things:
+* Original owner is Rainn.
+* I got it source from follow. (he leaked syntax paid source)
+* I made it using leaked syntax paid i just cut out the pieces of the UI.
 	
-## Setup
-To run this project, install it locally using npm:
+## Tutorial
+(I'll make a more indeep and more detailed one soon.)
+Here's a simple documentary on how to use it:
 
 ```
-$ cd ../lorem
+local Window = create:Win("Here goes the name")
+
+local tab1 = Window:Tabs("tab1")
+
+local examplesection1 = tab1:newpage()
+
+local examplesection2 = 
 $ npm install
 $ npm start
 ```
