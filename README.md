@@ -10,7 +10,7 @@ Main things:
 * I made it using leaked syntax paid i just cut out the pieces of the UI.
 	
 ## Tutorial
-(I'll make a more indeep and more detailed one soon.)
+(more detailed maybe coming soon idk lol)
 Here's a simple documentary on how to use it:
 
 ```
