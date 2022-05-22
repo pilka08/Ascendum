@@ -2,7 +2,6 @@
 ## It's from Ascend Hub.
 ### All credits goes to follow for leaking it.
 
-
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
