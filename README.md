@@ -1,7 +1,4 @@
 # Ascendum UI Library
-
-## General info
-This project is an UI library used in roblox/roblox studio.
 	
 ## Note
 Main things:
