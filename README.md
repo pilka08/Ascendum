@@ -1,14 +1,12 @@
-# Ascend UI Library
+# ascend ui library
 	
-## Note
-Main things:
-* Original owner is Rainn.
-* I got it source from follow. (he leaked syntax paid source)
-* I made it using leaked syntax paid i just cut out the pieces of the UI.
+## note
+main things:
+* original owner is Rainn.
+* i made it using leaked syntax paid i just cut out the pieces of the UI.
 	
-## Tutorial
-(more detailed maybe coming soon idk lol)
-Here's a simple documentary on how to use it:
+## tutorial
+simple documentary on how to use it:
 
 ```
 local Window = create:Win("Here goes the name")
