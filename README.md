@@ -8,7 +8,7 @@ main things:
 ## tutorial
 simple documentary on how to use it:
 
-```
+```lua
 local Window = create:Win("Here goes the name")
 
 local tab1 = Window:Tabs("tab1")
@@ -17,19 +17,17 @@ local examplesection1 = tab1:newpage()
 
 examplesection:Label("label name")
 
-examplesection:Line() 
-(it makes a line under label)
+examplesection:Line() --makes a line
 
-examplesection:Button("button name", color3.fromRGB(255, 255, 255), function()
-print("works") 
-(u can choose the button color just search "rgb color picker" in google.)
+examplesection:Button("button name", color3.fromRGB(255, 255, 255), function() --choose any color
+print("works") --code here
 end)
 
-examplesection:Toggle("toggle name", false, function()
-    
-end):lock(false) (if its true players cant turn it on and off.)
+examplesection:Toggle("toggle name", false, function() --toggle
+print(false)
+end):lock(false) --u can lock the toggle lmao
 
 examplesection:Bind("Close Keybind", _G.ToggleKey11, function(Key)
-    _G.ToggleKey11 = Enum.KeyCode[Key]
-end) (ui toggle keybind)
+    print(Key)
+end) --toggle
 ```
